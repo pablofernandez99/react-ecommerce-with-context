@@ -104,7 +104,7 @@ const PaymentForm = () => {
                 </div>
                 <button
                     type="submit"
-                    className="text-gray-800 font-semibold mt-4 w-full px-3 py-3 bg-yellow-500 rounded-full"
+                    className="text-gray-600 font-semibold mt-4 w-full px-3 py-3 border-2 border-orange-400 rounded-full hover:bg-orange-400 hover:text-white"
                 >
                     Proceed to pay
                 </button>
