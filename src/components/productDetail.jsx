@@ -67,7 +67,7 @@ const ProductDetail = () => {
                     <p className="mb-2">Rating: {product.rating}</p>
                     <p className="mb-6">Price: ${product.price}</p>
                     <button
-                        className="px-3 w-full py-2 bg-yellow-500 rounded-full"
+                        className="px-3 w-full py-2 font-semibold border-2 border-orange-400 rounded-full text-gray-600 hover:bg-orange-400 hover:text-white"
                         onClick={() => addToCart(product)}
                     >
                         Add to cart
