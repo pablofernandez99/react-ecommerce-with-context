@@ -25,7 +25,7 @@ const Product = ({ id, title, description, image, price, rating }) => {
     return (
         <div className="max-w-72 shadow bg-white rounded">
             <Link to={`/product/${id}`}>
-                <img src={image} alt={title} className="w-96 h-72 object-contain" />
+                <img src={image} alt={title} className="w-96 h-72 object-contain"  loading="lazy"/>
             </Link>
             <div className="p-3">
                 <Link to={`/product/${id}`}>
