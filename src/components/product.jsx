@@ -36,7 +36,7 @@ const Product = ({ id, title, description, image, price, rating }) => {
                 <p className="text-gray-700">Rating: {rating}</p>
                 <p className="">Price: ${price}</p>
                 <button
-                    className="my-2 px-3 py-2 w-full text-gray-600 border-2 border-orange-400 rounded-full font-bold hover:bg-orange-400 hover:text-white"
+                    className="my-2 px-3 py-2 w-full text-gray-600 border-2 border-orange-400 rounded-full font-semibold hover:bg-orange-400 hover:text-white"
                     onClick={() => addToCart(id, title, description, price, image)}
                 >
                     Add to cart
