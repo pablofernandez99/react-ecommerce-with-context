@@ -29,12 +29,12 @@ const Product = ({ id, title, description, image, price, rating }) => {
             </Link>
             <div className="p-3">
                 <Link to={`/product/${id}`}>
-                    <h2 className="overflow-hidden overflow-ellipsis whitespace-nowrap font-semibold">
+                    <h2 className="overflow-hidden overflow-ellipsis whitespace-nowrap font-bold text-xl text-gray-800">
                         {title}
                     </h2>
                 </Link>
-                <p className="text-gray-700">Rating: {rating}</p>
-                <p className="">Price: ${price}</p>
+                <p className="text-gray-700 my-2">Rating: {rating}</p>
+                <p className="text-gray-700 my-2">Price: ${price}</p>
                 <button
                     className="my-2 px-3 py-2 w-full text-gray-600 border-2 border-orange-400 rounded-full font-semibold hover:bg-orange-400 hover:text-white"
                     onClick={() => addToCart(id, title, description, price, image)}
